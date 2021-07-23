@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    background-color:rgb(125, 79, 212);
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+
+.leftpanel{
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    width:30%;
+    justify-content:center;
+    align-items:center;
+    border:2px solid;
+}
+
+.fa-user-circle{
+    font-size: 100px;
+}
+
+.panelbox{
+    margin-top: 50px;
+    background-color:rgb(255, 255, 255);
+    height: 200px;
+    width:70%;
+    border:2px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rightpanel{
+    background-color:rgb(125, 79, 212);
+    height:100vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    border:2px solid;
+
+}
+.app{
+    background-color:rgb(201, 179, 241);
+    height:50vh;
+    width:70%;
+    border-radius: 5px;
+    padding:25px;
+    margin-top: -20px;
+    display: flex;
+    border:2px solid;
+}
+.btns
+{
+    display:flex;
+    justify-content:space-between;
+    width:70%;
+}
+.app div{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.choosen
+{
+    background-color:green;
+}
+
+.app div div div{
+  background-color:rgb(255, 255, 255);
+  border:1px solid;
+  padding:5px;
+  padding-left: 10px;
+  margin:5px;
+  width:200px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.app div div div:hover{
+    background-color:rgb(0, 153, 13);
+  }
+
+.panelbox div{
+    background-color:rgb(246, 246, 246);
+    height: 30px;
+    width:30px;
+    margin:5px;
+    font-weight: bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px black;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+#review{
+    background-color:rgb(216, 67, 67);
+    border: 1px solid purple;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#next,#prev{
+    background-color:rgb(137, 233, 47);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 18px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#front,#score
+{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(125, 79, 212);
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+#name{
+    background-color: transparent;
+    border: none;
+    border-bottom:1px solid white;
+    font-size: 18px;
+    color:white;
+    outline:none;
+}
+#sub{
+    width:100px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+}
+
+#final{
+    background-color:rgb(216, 67, 67);
+    display:none;
+}
+
+#score{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+#result
+{
+    height: 100vh;
+    width: 100%;
+    background-color:rgb(125, 79, 212);
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    display: none;
+}
+
+#tiktik{
+    font-size: 20px;
+    background-color:rgb(216, 67, 67);
+    margin-bottom: 20px;
+    margin-left: 70%;
+}

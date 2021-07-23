@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/eb7789cf87.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div id="result" class="result">
+        <p id="score">0</p>
+    </div>
+    <div id="front" class="front">
+        <input id="name" type="text" placeholder="Enter Your Name">
+        <button id="sub">Start Exam</button>
+    </div>
+    <div class="main">
+
+        <!--left panel-->
+        <div class="leftpanel">
+            <i class="fas fa-user-circle"></i>
+            <h3 id="username"></h3>
+            <h5>0123456789</h5>
+
+            <div id="panelbox" class="panelbox">
+<!--    <div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>--> 
+            </div>
+            <button id="final">Final Submit</button>
+        </div>
+
+        <!--Right panel-->
+        <div class="rightpanel">
+            <!--timer-->
+            <p id="tiktik">0</p>
+            <!--Question Box-->
+            <div class="app" id="app">
+                    <!--<div>
+                        <h3>Question</h3>
+                        <div   optioncontainer>  
+                                                  
+                            <div>op1</div>
+                            <div>op2</div>
+                            <div>op3</div>
+                            <div>op4</div>
+                        </div>
+                    </div>-->
+                   
+            </div>
+            <div class="btns">
+                           
+                <button id="prev">Prev</button>
+                <button id="review">Review</button>
+                <button id="next">Next</button>
+             </div>
+       
+    </div>
+    </div>
+    
+    <!--Main Js-->
+    <script src="quiz.js" async type="module"></script>
+
+</body>
+</html>
